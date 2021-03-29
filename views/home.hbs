@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>weather</title>
+    <link rel="icon" href="/img/weather.jpeg"  />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/index.css" />
+  
+    <title>Document</title>
+</head>
+<body>
+
+    <div  class="main-content">
+       
+    <p style="font-size: large; font-weight: 400; text-align: center; color:rgb(10, 9, 9); margin-bottom: 8px;margin-top: 18px;">Weather</p>
+
+        {{>header}}
+
+
+    <form>
+        <input placeholder=" location ... " >
+        <button>Search</button>
+    </form>
+
+
+    <div class='messages'>
+        <p id='message-1'></p>
+
+        <p id='message-2'></p>
+    </div>
+
+  
+    </div>
+
+
+  
+
+    {{>footer}}
+     <script src="/js/app.js" ></script>
+</body>
+</html>
